@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Refresh">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Gabriela Alejandra Gallardo" />
+  <meta name="copyright" content="brogachi.com" />
+  <meta name="Brogachi" content="index, follow" />
+<meta name="punto38" content="ruta 38, gnc, cruz del eje" />
+  <meta name="Punto38" content="desayuno, almuerzo, cena, delibery, golosinas, cargas virtuales" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+  <LINK REL=StyleSheet HREF="estilo.css" TYPE="text/css" MEDIA=screen> 
+  <link rel="stylesheet" media="screen" type="text/css" href="normal.css" />
+   <meta name="viewport" content="width=900px"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+  <script> 
+function enviar_formulario(){ 
+   document.formulario1.submit() 
+} 
+</script> 
+<style>
+*{box-sizing:border-box;}
+@media screen and (min-width:300px) and (max-width:800px) {.class{background: #FFFF83}}
+ body {width: 1300px;
+  height: 600px;
+      position:relative; 
+  }
+#container {
+   margin-left: 100px;
+  margin-top: 20px;
+  width: 75%;
+  border-radius: 5px 5px 5%;background: linear-gradient(#ff751a, #ffc299);
+}
+
+#men{width: 1500px;border:3px ridge red;height: 150px; border-radius: 8px 8px;background: linear-gradient(#ff6600,#ffe0cc);left:700px;}
+#a{  font-family: 'Tangerine', serif;font-size: 38px; text-align: center;
+}
+
+header, footer {
+    padding: 1em;
+    color: black;
+    background-color:#FF9326 ;
+    clear: left;
+    text-align: center;
+    border-spacing: 5px outside #FF3232;
+}
+
+nav {
+    float: center;
+    max-width: 30px;
+    width: 100%;
+    height: 180px
+    margin: 0;
+    padding: 1em;
+    border-radius: 5px 10%;
+       margin-left:200px;
+    z-index:101;
+}
+
+nav ul {float: center;
+    list-style-type: none;
+    padding: 0;
+    height: 180px;
+}
+   
+nav ul a {float: center;
+  height: 50px;
+    text-decoration: none;
+    top:10px;
+    border: 3px ridge red;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    width: 300px;
+}
+/*#navbar navbar-inverse navbar-fixed-top{margin-right: 10px;}*/
+iframe{border-style: 2px gray hidden;}
+/*#aromos21{border:5px hidden gray; margin-top: 10px;}
+imagenes{width: 400px; height: 300px; border: 10px; border: hidden; position: relative;}
+
+label { display: block; margin-bottom: 20px; }
+input[placeholder]{font-style: italic; }
+textarea{width: 470px; height: 70px;}
+input, button { width: 200px; margin-top: 15px; height:30px; background: #cc3
+  ; border: 1px solid black; padding: 5px; outline: none;}
+input[type="email"]:invalid:focus+spam:before{content: 'el campo es invalido';}
+form  { margin: auto; padding: 20px; border-radius: 10px/10px; background: rgba(20,20,20,0.5);}
+[type="number"], [type="date"], [type="time"], button { width: 100px; }
+button { height: 35px; background: #FF6600; font-weight: bold; }
+h1 { text-align: center; }*/
+  
+#carrusel{float:left; width:1201px; overflow:hidden; height:600px; position:relative; margin-top:20px;}
+#carrusel .izquierda_flecha{position:absolute; left:10px; z-index:1; top:50%; margin-top:-9px;}
+#carrusel .derecha_flecha{position:absolute; right:10px; z-index:1; top:50%; margin-top:-9px;}
+.carrusel{width:4000px;left:0px; position:absolute; z-index:0}
+.carrusel>div{
+    float: left;
+    height: 203px;
+    margin-right: 5px;
+    width: 195px;
+    text-align:center;
+}
+.carrusel .img_carrusel{cursor:pointer;}
+
+#content {
+    float:left;
+    width:600px;
+    margin-bottom:40px;
+    margin:0px auto;
+}
+
+.product {
+    border:#CCCCCC 1px solid;height: auto;
+}
+  </style>
+
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<header>
+   <div class="container-fluid" style="background-color:#fff;height:300px; width: 1300px">
+<div class="item active">
+ <img src="IMG-20170821-WA0042.jpg" width="1100" height="300">
+ 
+</div>
+</div>
+</header>
+<div>
+<div id="men">
+<nav>
+  <ul class="nav">
+        <li ><a id="liA" href="index.html" TYPE="text/html" MEDIA=screen>Menu de Inicio</a></li>
+          <li id="DivisorDesplegable"><a id="li1" href="servicios.html" TYPE="text/html" MEDIA=screen>Servicios</a>
+          <ul>
+          <li ><a id="li6" href="Menu.html" TYPE="text/html" MEDIA=screen>Menú almuerzo y Cena</a></li>
+          <li ><a  id="li7" href="delibery.html" TYPE="text/html"  MEDIA=screen>Delivery</a>
+          </li>
+          <li ><a  id="li5" href="desayunoMerienda.html" TYPE="text/html"  MEDIA=screen>Desayunos y Meriendas</a></li>
+          
+          </ul>
+          <li id="DivisorDesplegable"><a  id="li2" href="Productos.html" TYPE="text/html"  MEDIA=screen>Productos</a>
+          <ul>
+          <li ><a id="li6" href="cargasVirtuales.html" TYPE="text/html" MEDIA=screen>Cargas Virtuales</a></li>
+          <li ><a  id="li7" href="golosinas.html" TYPE="text/html"  MEDIA=screen>Golosinas</a>
+          </li>
+          <li><a  id="li8" href="Oliva.html" TYPE="text/html" MEDIA=screen>Aceite de Oviva - Aceitunas</a>       
+          </li>
+          <li ><a id="li9" href="Snack.html" TYPE="text/html" MEDIA=screen>Snack</a></li>
+          <li ><a id="li10" href="Bebidas.html" TYPE="text/html" MEDIA=screen>Bebidas</a></li>
+          <li ><a id="li5" href="Cigarrillos.html" TYPE="text/html" MEDIA=screen>Cigarrillos</a></li>
+
+          </ul>
+          <!--li><a  id="li3" href="tablaMenú.html" TYPE="text/html" MEDIA=screen>Menú diario</a-->       
+          </li>
+          <li ><a id="li4" href="Contacto.html" TYPE="text/html" MEDIA=screen>Contacto</a></li>
+          
+
+        </ul>
+
+        </nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
+        </div>
+<div class="quienesSomos">
+
+<article>
+ 
+  <h1>Servicios</h1>
+<ul style="list-style-type:disc">
+<li><a>Servicio de Bar, desayuno y meriendas a carta.</a></li>
+<li><a>Servicio de alumerzo almuerzo y cena a la carta.</a></li>
+<li><a>Servicio de menú diario.</a></li>
+<li><a>Servicio de Delibery a domicilio.</a></li>
+<li><a>Abierto todos los días las 24 hs.</a></li>
+  </ul>
+</article>
+</div>
+ <!--div id="carrusel">
+    <a href="#" class="izquierda_flecha"><img src="images/flecha_01.png" /></a>
+    <a href="#" class="derecha_flecha"><img src="images/flecha_02.png" /></a>
+    <div class="carrusel">
+        <div class="product" id="product_0">
+            <img class="img_carrusel" src="IMG-20170821-WA0056.jpg" width="195px" height="100px" />
+            <p>Cortadp</p>
+            <p>35.00 </p>
+        </div>
+        <div class="product" id="product_1">
+             <img class="img_carrusel" src="IMG-20170821-WA0054.jpg" width="195px" height="100px" />
+            <p>Capuchino</p>
+              <p>30.00 </p>
+        </div>
+        <div class="product" id="product_2">
+            <img class="img_carrusel" src="IMG-20170821-WA0052.jpg" width="195px" height="100px" />
+            <p>Cortado</p>
+            <p></p>
+        </div>
+        <div class="product" id="product_3">
+            <img class="img_carrusel" src="IMG-20170821-WA0043.jpg" width="195px" height="100px" />
+            <p>Menú</p>
+            <p>si queres precio</p>
+        </div>
+        <div class="product" id="product_4">
+            <img class="img_carrusel" src="IMG-20170821-WA0053.jpg" width="195px" height="100px" />
+            <p>Postres</p>
+            <p>¿?</p>
+        </div>
+        <div class="product" id="product_5">
+            <img class="img_carrusel" src="IMG-20170821-WA0051.jpg" width="195px" height="100px" />
+            <p>Cafe</p>
+            <p>¿?</p>
+        </div>
+        <div class="product" id="product_6">
+            <img class="img_carrusel" src="IMG-20171006-WA0034.jpg" width="195px" height="100px" />
+            <p>Cafe</p>
+            <p>¿?</p>
+        </div>
+        <div class="product" id="product_7">
+            <img class="img_carrusel" src="IMG-20171006-WA0035.jpg" width="195px" height="100px" />
+            <p>Cafe</p>
+            <p>¿?</p>
+        </div>
+    </div>
+</div>
+ 
+
+<script>
+ var posicion = 0;
+ var imagenes = new Array();
+ $(document).ready(function() {
+   //alert(jQuery('.texto').html());
+   var numeroImatges = 8;
+   if(numeroImatges<=3){
+       $('.derecha_flecha').css('display','none');
+    $('.izquierda_flecha').css('display','none');
+   }
+
+     $('.izquierda_flecha').live('click',function(){
+         if(posicion>0){
+            posicion = posicion-1;
+        }else{
+            posicion = numeroImatges-3;
+        }
+        $(".carrusel").animate({"left": -($('#product_'+posicion).position().left)}, 600);
+        return false;
+     });
+
+     $('.izquierda_flecha').hover(function(){
+         $(this).css('opacity','0.5');
+     },function(){
+         $(this).css('opacity','1');
+     });
+
+     $('.derecha_flecha').hover(function(){
+         $(this).css('opacity','0.5');
+     },function(){
+         $(this).css('opacity','1');
+     });
+
+     $('.derecha_flecha').live('click',function(){
+        if(numeroImatges>posicion+3){
+            posicion = posicion+1;
+        }else{
+            posicion = 0;
+        }
+        $(".carrusel").animate({"left": -($('#product_'+posicion).position().left)}, 600);
+        return false;
+     });
+
+ });
+</script-->
+
+<a href='https://www.facebook.com/punto38shop/' target='_blank' title='Sígueme en Facebook'><img src='678128-social-facebook-128.png' style='display:scroll;position:fixed;width:60px;height: 60px; bottom:1600px;right:2px'/></a>
+<a href="https://api.whatsapp.com/send?phone=5493549545780" target='_blank' title='Sígueme en wap'><img src="whatsapp-128.png" style='display:scroll;position:fixed;width:53px;height: 55px;bottom:1655px;right:5px'></a>
+<a  target='_blank' title='Aside'><img src='IMG-20170821-WA0050.jpg' style='display:scroll;position:fixed;bottom:1455px;right:0px;width: 140px'/></a>
+
+</div>
+<footer>
+  <p>© by:Brogachi 2017</p>
+  <p>  - Todos los derechos reservados</p> 
+  <p>Information de contacto: 
+  <a href="Cruzdeleje@brogachi.com"> Cruzdeleje@brogachi.com</a>
+  <br>
+  <a href="mailto:gabicde@hotmail.com">gabicde@hotmail.com</a>
+  </p>
+</footer>
+</body>
+</html>
